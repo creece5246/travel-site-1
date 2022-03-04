@@ -1,0 +1,124 @@
+@charset "UTF-8";
+#collection{
+	width : 700px;
+	height: 1200px;
+	margin:auto;
+}
+body {
+    background-image: url(background_travel.jpg);
+    background-size: cover;
+
+}
+header{
+    height: 200px;
+    width: 700px;
+    background-image: url(trace_italy-01.png);
+    border-top-right-radius: 19px;
+    border-top-left-radius: 19px;
+}
+main {
+    width: 698px;
+    background-color: rgba(255,255,255,0.75);
+    height: 800px;
+    float: none;
+    margin-left: 2px;
+    margin-top: -21px;
+}
+article {
+    padding-left: 113px;
+}
+aside {
+    width: 100px;
+    height: 800px;
+    background-color: rgba(2,1,148,0.64);
+    float: left;
+    margin-top: -1px;
+}
+footer {
+    height: 50px;
+    width: 700px;
+    background-color: rgba(234,126,86,0.84);
+    float: left;
+    clear: both;
+    border-bottom-right-radius: 19px;
+    border-bottom-left-radius: 19px;
+}
+h1 {
+    padding-top: 17px;
+
+}
+#collection nav ul {
+    list-style-type: none;
+    background-color: rgba(235,127,86,0.74);
+    height: 45px;
+    width: 660px;
+    font-size: x-large;
+    margin: auto;
+    padding-top: 14px;
+}
+#collection nav li {
+    display: inline;
+    font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: rgba(52,1,117,1.00);
+    margin-right: 79px;
+    margin-left: 0px;
+    padding-left: 8px;
+    font-size: x-large;
+}
+.colo {
+    width: 132px;
+    height: 91px;
+    padding-right: 58px;
+}
+.vater {
+    width: 121px;
+    height: 94px;
+}
+.sisti {
+    height: 94px;
+    width: 125px;
+}
+
+main article img_bott {
+    margin-left: -556px;
+    padding-left: 0px;
+}
+.fooders {
+    width: 205px;
+    height: 208px;
+    border-radius: 24px;
+}
+.bergz {
+    width: 302px;
+    height: 189px;
+    padding-right: 136px;
+    border-radius: 137px;
+}
+.vesu {
+    width: 179px;
+    height: 148px;
+    border-radius: 22px;
+}
+.cinq {
+    width: 204px;
+    height: 140px;
+    padding-top: 3px;
+    border-radius: 25px;
+}
+.uffer {
+    width: 323px;
+    height: 125px;
+    border-radius: 24px;
+}
+.submit_butt {
+    width: 157px;
+    height: 74px;
+    background-color: rgba(89,88,182,1.00);
+    border-radius: 22px;
+    font-size: x-large;
+
+}
+.submit_butt:hover {
+	  -webkit-box-shadow: 6px 6px rgba(229,148,118,1.00);
+    box-shadow: 6px 6px rgba(229,148,118,1.00);
+}

@@ -1,0 +1,84 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Italy Travel Site</title>
+<link href="travel_style.css" rel="stylesheet" type="text/css">
+<style type="text/css">
+a:link {
+    color: rgba(53,0,118,1);
+    text-decoration: none;
+}
+a:visited {
+    text-decoration: none;
+    color: rgba(7,1,125,1);
+}
+a:hover {
+    text-decoration: underline;
+    color: rgba(47,0,37,1);
+}
+a:active {
+    text-decoration: none;
+    color: rgba(223,25,29,1);
+}
+	img {
+    padding : 15px;
+    border-radius: 17px;
+    float: right;
+	}
+	p {
+    font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 17px;
+    padding-right: 19px;
+	}
+	li{
+    font-size: large;		
+	}
+</style>
+</head>
+
+<body>
+<br data_temp_dwid="0">
+</body>
+<div id="collection">
+  <header></header>
+	<nav>
+	<ul>
+		<li><a href = "travel_site.html">Main</a></li>
+		<li><a href = "travel_food.html">Food</a></li>
+		<li><a href = "travel_activ.html">Activities</a></li>
+		<li><a href = "travel_review.html">Review</a></li>
+		</ul>
+	</nav>
+  <aside></aside>
+  <main>
+	<article>
+	  <h1>Leave a Review</h1>
+		<form>
+		<p>Your Name: <input name="user_name" type="text" id="user_name" size="20"></p>
+		<p>Leave a review : <textarea name="user_review" cols="35" rows="1" id="user_review"></textarea></p>
+		<p>
+  <label>
+	 <h3>How would you rate us on a scale of Great - Horrible</h3>
+    <input type="radio" name="RadioGroup1" value="radio" id="RadioGroup1_0">
+    Great</label>
+  <br>
+  <label>
+    <input type="radio" name="RadioGroup1" value="radio" id="RadioGroup1_1">
+    Good</label>
+  <br>
+  <label>
+    <input type="radio" name="RadioGroup1" value="radio" id="RadioGroup1_2">
+    Meh</label>
+  <br>
+  <label>
+    <input type="radio" name="RadioGroup1" value="radio" id="RadioGroup1_3">
+    Horrible</label>
+  <br>
+</p><input type="submit" class="submit_butt" formaction="comment-box.php" formmethod="POST">
+	  </form>
+    </article>	
+	</main>
+  <footer></footer>
+</div>
+</html>
